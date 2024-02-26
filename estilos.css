@@ -43,10 +43,11 @@
 
 /* Estilos para la sección Hero y Sobre Mí */
 #sobre-mi {
-    background-color: #f8f9fa;
+    background-color: bei;
 }
 
 #sobre-mi h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10%;
     color: #333;
 }
