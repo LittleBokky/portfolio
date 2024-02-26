@@ -1,0 +1,112 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: beige;
+    padding: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar-nav .nav-link {
+    color: #555;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al hacer hover sobre los enlaces de navegación */
+.navbar-nav .nav-link:hover {
+    color: #000;
+    transform: scale(1.1);
+}
+
+/* Estilos para la imagen de perfil */
+.img-profile {
+    margin: 13%;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Agrega una sombra suave a la imagen */
+    transition: transform 0.4s ease-in-out;
+    /* Agrega una transición suave al hacer hover sobre la imagen */
+}
+
+/* Efecto al hacer hover sobre la imagen */
+.img-profile:hover {
+    transform: scale(1.1);
+    /* Hace que la imagen se agrande ligeramente al hacer hover */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Estilos para la sección Hero y Sobre Mí */
+#sobre-mi {
+    background-color: #f8f9fa;
+}
+
+#sobre-mi h2 {
+    margin-top: 10%;
+    color: #333;
+}
+
+/* Estilos para la sección de Experiencia */
+#experiencia {
+    background-color: #fff;
+}
+
+#experiencia h2 {
+    color: #333;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la sección de Proyectos */
+#proyectos {
+    background-color: #f8f9fa;
+}
+
+#proyectos h2 {
+    color: #333;
+}
+
+/* Estilos para la sección de Artículos */
+#articulos {
+    background-color: #fff;
+}
+
+#articulos h2 {
+    color: #333;
+}
+
+/* Estilos para la sección de Testimonios */
+#testimonios {
+    background-color: #f8f9fa;
+}
+
+#testimonios h2 {
+    color: #333;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+    background-color: #fff;
+}
+
+#contacto h2 {
+    color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+    color: #fff;
+}
