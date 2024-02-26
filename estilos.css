@@ -1,6 +1,9 @@
 /* Estilos para la barra de navegación */
 .navbar {
-    background-color: beige;
+    margin: 0.4%;
+    max-width: 33%;
+    height: 60px;
+    background-color: #FFF6DD;
     padding: 1rem;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -43,14 +46,17 @@
 
 /* Estilos para la sección Hero y Sobre Mí */
 #sobre-mi {
-    background-color: bei;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D3CAB5;
 }
+
 
 #sobre-mi h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 10%;
+    margin-top: 35%;
     color: #333;
 }
+
 
 /* Estilos para la sección de Experiencia */
 #experiencia {
@@ -59,6 +65,7 @@
 
 #experiencia h2 {
     color: #333;
+
 }
 
 .card {
