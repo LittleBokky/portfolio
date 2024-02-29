@@ -1,0 +1,130 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    margin: 0.4%;
+    max-width: 22%;
+    height: 60px;
+    background-color: #FFF6DD;
+    padding: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Estilos para la barra de navegación */
+.navbar-nav .nav-link {
+    color: #555;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al hacer hover sobre los enlaces de navegación */
+.navbar-nav .nav-link:hover {
+    color: #000;
+    transform: scale(1.1);
+}
+
+/* Estilos para la imagen de perfil */
+.img-profile {
+    margin: 13%;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Agrega una sombra suave a la imagen */
+    transition: transform 0.4s ease-in-out;
+    /* Agrega una transición suave al hacer hover sobre la imagen */
+}
+
+/* Efecto al hacer hover sobre la imagen */
+.img-profile:hover {
+    transform: scale(1.1);
+    /* Hace que la imagen se agrande ligeramente al hacer hover */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Estilos para la sección Hero y Sobre Mí */
+#sobre-mi {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D3CAB5;
+}
+
+
+#sobre-mi h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 35%;
+    color: #333;
+}
+
+
+/* Estilos para la sección de Experiencia */
+#experiencia {
+    background-color: #fff;
+}
+
+#experiencia h2 {
+    color: #333;
+
+}
+.card2{
+    background-color: #010537;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.carousel-item .carousel-img-overlay {
+    position: relative;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* Estilos para la sección de Proyectos */
+#proyectos {
+    background-color: #f8f9fa;
+}
+
+#proyectos h2 {
+    color: #333;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+    background-color: #fff;
+}
+
+#contacto h2 {
+    color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+    color: #fff;
+}
