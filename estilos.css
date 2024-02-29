@@ -1,7 +1,7 @@
 /* Estilos para la barra de navegación */
 .navbar {
     margin: 0.4%;
-    max-width: 33%;
+    max-width: 22%;
     height: 60px;
     background-color: #FFF6DD;
     padding: 1rem;
@@ -67,6 +67,12 @@
     color: #333;
 
 }
+.card2{
+    background-color: #010537;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
 
 .card {
     border: none;
@@ -77,31 +83,35 @@
 .card:hover {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
+.carousel-item .carousel-img-overlay {
+    position: relative;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-item:hover .overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 /* Estilos para la sección de Proyectos */
 #proyectos {
-    background-color: #f8f9fa;
+    background-color: #D3CAB5;
 }
 
 #proyectos h2 {
-    color: #333;
-}
-
-/* Estilos para la sección de Artículos */
-#articulos {
-    background-color: #fff;
-}
-
-#articulos h2 {
-    color: #333;
-}
-
-/* Estilos para la sección de Testimonios */
-#testimonios {
-    background-color: #f8f9fa;
-}
-
-#testimonios h2 {
     color: #333;
 }
 

@@ -33,12 +33,6 @@
                         <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#articulos">Artículos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonios">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
@@ -103,20 +97,25 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <h3>Área de conocimiento 2</h3>
-                            <!-- Aquí puedes agregar una insignia o icono para resaltar -->
-                            <p>Descripción del área de conocimiento 2.</p>
+                    <div class="card2">
+                        <div class="card-body text-center text-white ">
+                            <h3>Estudios</h3>
+                            <p>Estos son los certificados y cursos profesionales que he realizado y completado para obtener mi titulación en
+                                "Desarrollo de Aplicaciones Web"
+                            </p>
+                            <!-- Botón HTML -->
+                            <a href="https://www.juntadeandalucia.es/educacion/portals/web/formacion-profesional-andaluza/fp-grado-superior/detalle-titulo?idTitulo=56" class="btn btn-primary mr-2">F.P.G.S</a>
+                            <a href="https://openwebinars.net/" class="btn btn-primary ">OpenWebinars</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body text-center">
-                            <h3>Área de conocimiento 3</h3>
-                            <!-- Aquí puedes agregar una insignia o icono para resaltar -->
-                            <p>Descripción del área de conocimiento 3.</p>
+                            <h3>Idioma</h3>
+                            <p>Aqui muestro mi nivel académico escrito y hablado, en cuanto a idiomas, certificados oficiales por academias</p>
+                            <a href="" class="btn btn-primary mr-2">Inglés B2</a>
+                            <a href="" class="btn btn-primary ">Francés A2</a>
                         </div>
                     </div>
                 </div>
@@ -124,42 +123,96 @@
         </div>
     </section>
 
-    <!-- Sección de Proyectos -->
     <section id="proyectos" class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Proyectos</h2>
-            <!-- Aquí puedes agregar la grid de Bootstrap para mostrar tus proyectos -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-img-overlay">
+                            <img src="./imagenes/ProyectoPhp.PNG" class="d-block w-100" alt="Proyecto PHP">
+                            <div class="overlay">
+                                <h3>Proyecto PHP</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img-overlay">
+                            <img src="./imagenes/ProyectoDocker.png" class="d-block w-100" alt="Proyecto Docker">
+                            <div class="overlay">
+                                <h3>Proyecto Docker</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img-overlay">
+                            <img src="./imagenes/imagen2.jpg" class="d-block w-100" alt="Proyecto React">
+                            <div class="overlay">
+                                <h3>Proyecto React</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+            </div>
         </div>
     </section>
+    
+    
+    
 
-    <!-- Sección de Artículos -->
-    <section id="articulos" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-5">Artículos</h2>
-            <!-- Aquí puedes agregar cartas (cards) y grupos de listas (list groups) de Bootstrap para tus artículos -->
-        </div>
-    </section>
-
-    <!-- Sección de Testimonios -->
-    <section id="testimonios" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-5">Testimonios</h2>
-            <!-- Aquí puedes agregar un carrusel (carousel) de Bootstrap con testimonios -->
-        </div>
-    </section>
-
-    <!-- Sección de Contacto -->
     <section id="contacto" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-5">Contacto</h2>
-            <!-- Aquí puedes agregar enlaces a perfiles de redes sociales e información de contacto -->
+            <h2 class="text-center mb-4">Contacto</h2>
+            <h5 class="text-center mb-4">Si desea contactar conmigo, en este apartado expongo diferentes métodos y maneras para ponerse en contacto conmigo.</h5>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Información de contacto</h4>
+                    <p><strong>Dirección:</strong> Calle 123, Puerta 4, Jerez de la Fra., Cádiz</p>
+                    <p><strong>Teléfono:</strong> +123456789</p>
+                    <p><strong>Email:</strong> rafabocrod200215@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-4">Sígueme en las redes sociales</h4>
+                    <div>
+                        <a href="https://www.instagram.com/rafaabokky/?next=%2F"><img src="./imagenes/Instagram_icon.png" alt="Instagram" style="width: 50px; height: auto; margin-right: 20px;"></a>
+                        <a href="https://github.com/LittleBokky"><img src="./imagenes/github.png" alt="GitHub" style="width: 50px; height: auto; margin-right: 20px;"></a>
+                        <a href="https://www.linkedin.com/in/rafael-bocanegra-rodr%C3%ADguez-63456721a/"><img src="./imagenes/linkedin.png" alt="LinkedIn" style="width: 50px; height: auto;"></a>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Agregar el mapa de Google Maps -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.784138581651!2d-6.147394384675607!3d36.69311469583196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0db52026876fc7%3A0x3e89d8f31cb003d0!2sCalle%20123%2C%2041500%20Alcal%C3%A1%20de%20los%20Gazules%2C%20C%C3%A1diz!5e0!3m2!1ses!2ses!4v1646673551800!5m2!1ses!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
         </div>
     </section>
+    
+    
+    
+    
+    
+    
 
     <!-- Pie de página -->
     <footer class="bg-dark text-light py-4">
         <div class="container text-center">
-            <p>Derechos de autor © 2024 - Mi Portafolio</p>
+            <p>Rafael Bocanegra Rodríguez © 2024 - Mi Portafolio</p>
         </div>
     </footer>
 
